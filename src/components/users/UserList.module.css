@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+  margin-top: 12px;
+}
+.card {
+  box-shadow: 2px 4px 4px 0px rgb(0 0 0 / 35%);
+  border: 0px solid rgb(82 73 73 / 18%);
+  background-color: #f7f8f9b3;
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+  background-color: #6298c7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.logo span {
+  font-size: 32px;
+  font-weight: bold;
+}
+.button {
+  margin-top: 20px;
+  width: 75%;
+  background: #1c3c4c !important;
+  justify-content: center;
+  letter-spacing: 0.2px;
+  border: none !important;
+  margin-bottom: 20px;
+}

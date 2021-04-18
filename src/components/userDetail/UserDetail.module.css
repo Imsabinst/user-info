@@ -1,0 +1,63 @@
+.userInfoRow {
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+.button {
+  margin-top: 20px;
+}
+.card {
+  margin-top: 12px;
+  box-shadow: 2px 4px 4px 0px rgb(2 0 0 / 35%);
+  border: 0px solid rgb(82 73 73 / 18%);
+  text-align: center;
+}
+.detailCol {
+  border: 1px;
+  background: #4a9ccc;
+}
+
+.detailCol p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.detailInformation {
+  display: flex;
+  justify-content: center;
+}
+.detail {
+  width: 90%;
+}
+.detail > div {
+  display: flex;
+  padding: 8px 0;
+}
+.detail > div > div:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+.detail > div > div:last-child {
+  width: 50%;
+}
+.logoContainer {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  background: #c6ddf7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 60px;
+  font-weight: bold;
+}
